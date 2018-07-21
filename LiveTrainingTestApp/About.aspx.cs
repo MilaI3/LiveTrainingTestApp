@@ -11,7 +11,10 @@ namespace LiveTrainingTestApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            DBUtil db = new DBUtil();
 
+            db.ConnectToDatabase();
+            
         }
     }
 }
